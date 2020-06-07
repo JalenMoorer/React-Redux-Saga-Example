@@ -1,0 +1,71 @@
+@media screen and (min-width: 767px){
+    .flexContainer {
+        margin: 0px auto;
+        max-width: 768px;
+    }
+}
+
+.title {
+        text-align: center;
+    font-family: sans-serif;
+}
+
+.flexContainer { 
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    border: 1px solid;
+    min-height: 180px;
+}
+
+.cardContainer {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.date {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 16px;
+    font-family: "Arial",sans-serif;
+    padding: 0 0 7px 4px;
+    font-weight: 600;
+    color: #525151;
+    background-color: #f5f5f5;
+    font-size: 18px;
+}
+
+.special,
+.schedule {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.specialHeading {
+    margin: 0 0 8px 5px;
+}
+
+.burgerName {
+    margin-top: 8px;
+    color: #808080;
+    text-align: left;
+    min-height: 2.2em;
+    font-size: 1rem;
+}
+
+.schedule {
+    margin: 8px 0 8px 0;
+}
+
+.scheduleList {
+    list-style-type: none;
+    margin: 8px 0 8px 0;
+}
+
+.scheduleList li {
+    padding-bottom: 0.875rem;
+}
